@@ -1,15 +1,15 @@
 # Netease
 
 
-Step1: 安装, `composer require "superman2014/filesystem-aliyun:1.0.x@dev"`
+Step1: 安装, `composer require "sudongyan/filesystem-aliyun:1.0.x@dev"`
 
-Step2: 注册 `Superman2014\Filesystem\Aliyun\AliyunServiceProvider` 到`config/app.php` 配置文件:
+Step2: 注册 `Sudongyan\Filesystem\Aliyun\AliyunServiceProvider` 到`config/app.php` 配置文件:
 
 ```
 'providers' => [
     // Other service providers...
 
-    Superman2014\Filesystem\Aliyun\AliyunServiceProvider::class,
+    Sudongyan\Filesystem\Aliyun\AliyunServiceProvider::class,
 ],
 
 ```
