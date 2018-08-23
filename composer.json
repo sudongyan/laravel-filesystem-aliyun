@@ -1,5 +1,5 @@
 {
-    "name": "superman2014/filesystem-aliyun",
+    "name": "sudongyan/filesystem-aliyun",
     "description": "aliyun oss filesystem storage for laravel 5+",
     "keywords": ["aliyun", "oss", "laravel", "filesystems", "storage"],
     "homepage": "",
@@ -8,6 +8,10 @@
         {
             "name": "liujingyu",
             "email": "jingyu525@gmail.com"
+        },
+        {
+            "name": "sudongyan",
+            "email": "sudongyan1874@gmail.com"
         }
     ],
     "require": {
@@ -15,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Superman2014\\Filesystem\\Aliyun\\": "src/"
+            "Sudongyan\\Filesystem\\Aliyun\\": "src/"
         }
     },
      "extra": {
